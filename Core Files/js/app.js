@@ -24,6 +24,7 @@ function initialize() {
             mapTypeControlOptions: {
                 style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
                 position: google.maps.ControlPosition.LEFT_BOTTOM
+                scrollwheel: false
             },
             styles: light_grey_style
         };
